@@ -51,7 +51,7 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
 #include <iostream>
@@ -61,9 +61,7 @@
 #include "olc6502.h"
 
 #define OLC_PGE_APPLICATION
-#include "olcPixelGameEngine.h"
-
-
+	#include "../lib/olcPixelGameEngine.h"
 
 class Demo_olc2C02 : public olc::PixelGameEngine
 {
@@ -257,9 +255,6 @@ private:
 		return true;
 	}
 };
-
-
-
 
 
 int main()

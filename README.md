@@ -1,7 +1,29 @@
 # olcNES
 NES Emulator, and Tutorial Video Code
 
-# License (OLC-3)
+## Install
+
+### Ubuntu
+##### Tnstall this depedencies
+```
+$ sudo apt install build-essential libglu1-mesa-dev libpng-dev
+$ sudo apt install mesa-common-dev
+$ sudo apt install libmesa-dev
+```
+
+##### Clone this repository e add `olcPixelGameEngine.h` in lib folder
+```
+$ git clone https://github.com/marcos-tulio/olcNES
+$ cd olcNES
+$ wget -O lib/olcPixelGameEngine.h https://github.com/OneLoneCoder/olcPixelGameEngine/releases/download/v2.07/olcPixelGameEngine.h
+```
+#### Compile the system
+```
+$ cd choose_a_part_folder
+$ g++ -o olc_nes ../lib/olcPixelGameEngine.h  *.cpp *.h -lX11 -lGL -lpthread -lpng -lstdc++fs -std=c++17
+```
+
+## License (OLC-3)
 Copyright 2018, 2019, 2020, 2021 OneLoneCoder.com
 
 Redistribution and use in source and binary forms, with or without 

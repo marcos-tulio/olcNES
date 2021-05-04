@@ -51,14 +51,14 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
 #pragma once
 #include <cstdint>
 #include <memory>
 
-#include "olcPixelGameEngine.h"
+#include "../lib/olcPixelGameEngine.h"
 
 #include "Cartridge.h"
 
